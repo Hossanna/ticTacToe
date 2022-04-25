@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    max-width: 400px;
+    max-width: 300px;
 }
 .tile{
     border: 1px solid white;
@@ -70,7 +70,7 @@ body{
     border-radius: 10px;
     border: none;
     font-size: 1.2em;
-    margin-left: 47.5%;
+    margin-left: 47%;
     margin-top: 1.5em;
     cursor: pointer;
     background-color: #ff3860;
