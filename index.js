@@ -56,7 +56,7 @@ const announce = (type) => {
             announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
             break;
         case playerX_won:
-            announcer.innerHTML = 'Player <span class="playerO">X</span> Won';
+            announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
             break;
             case tie:
             announcer.innerHTML = 'TIE';
@@ -80,7 +80,7 @@ const isValidAction = (tile) => {
 function handleResultValidation(){
     let roundWon = false;
     for (let i = 0; i<=7; i++){
-        const winCondition =winningConditions[i];
+        const winCondition = winningConditions[i];
         const a = board[winCondition[0]];
         const b = board[winCondition[1]];
         const c = board[winCondition[2]];
